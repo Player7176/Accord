@@ -119,7 +119,7 @@ object MediaStoreUtils {
      * [Date] stores Date metadata.
      */
     data class Date(
-        override val id: Long,
+        override val id: Long?,
         override val title: String?,
         override val songList: MutableList<MediaItem>,
     ) : Item
