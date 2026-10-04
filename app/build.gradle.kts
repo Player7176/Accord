@@ -56,7 +56,7 @@ android {
         // That said, supporting Android 5.0 barely costs any tech debt and we plan to keep support
         // for it for a while.
         // Bye bye android 12 - cuz blur
-        minSdk = 31
+        minSdk = 30
         targetSdk = 36
         versionCode = 18
         versionName = "beta2"
